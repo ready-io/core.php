@@ -1,0 +1,22 @@
+{
+    "name": "ready-io/ready-io",
+    "type": "library",
+    "description": "Ready.io framework for PHP",
+    "keywords": ["ready.io","framework"],
+    "homepage": "https://github.com/ready-io/ready-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Herrera Cardona",
+            "email": "santiago.ready.io@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}
