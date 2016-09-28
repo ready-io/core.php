@@ -1,6 +1,6 @@
 {
     "name": "ready.io/ready.io",
-    "description": "dsads",
+    "description": "Ready.io framework for PHP",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
