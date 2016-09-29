@@ -56,7 +56,7 @@
         </div><!-- /.navbar-collapse -->
     </nav>
 
-
+<?php include($view); ?>
 
 </body>
 </html>

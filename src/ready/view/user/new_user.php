@@ -1,10 +1,10 @@
 <?php
 
-include_once("includes/vars.php");
-include_once("includes/annotations.class.php");
-include_once("includes/html_tag.class.php");
-include_once("includes/form_element.class.php");
-include_once("includes/form.class.php");
+include_once("Core/vars.php");
+include_once("Core/annotations.class.php");
+include_once("Core/html_tag.class.php");
+include_once("Core/form_element.class.php");
+include_once("Core/form.class.php");
 include_once("model/user.php");
 
 
