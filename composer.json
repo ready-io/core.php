@@ -1,6 +1,6 @@
 {
     "name": "ready.io/ready.io",
-    "description": "Ready.io framework for PHP",
+    "description": "Ready.io PHP framework",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
