@@ -1,5 +1,6 @@
-# ready-php
-Ready.io framework for PHP
+# Ready.io framework for PHP
+
+Hey!, nothing interesting here? this project is under construction, check again in some months. 
 
 ## License
 Copyright &copy; 2016 [Santiago Herrera Cardona](https://github.com/ready-io).
