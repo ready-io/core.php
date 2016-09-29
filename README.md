@@ -1,4 +1,4 @@
-# Ready.io framework for PHP
+# Ready.io PHP framework
 
 Hey!, nothing interesting here? this project is under construction, check again in some months. 
 
