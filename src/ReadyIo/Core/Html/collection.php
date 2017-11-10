@@ -1,6 +1,6 @@
 <?php 
 
-namespace core\html;
+namespace ReadyIo\Core\Html;
 /**
 * 
 */

@@ -1,14 +1,13 @@
 <?php
 
-require "core/autoload.php";
+// require "core/autoload.php";
 
-use core\html\element;
-use core\html\tag;
-use core\html\input;
-use core\html\parser;
-use core\html\Html;
+require_once '../vendor/autoload.php';
 
-$html = file_get_contents("view/layout.php");
+use ReadyIo\Core\Html\Parser;
+
+$html = file_get_contents("../src/ReadyIo/view/layout.php");
+// print $html;
 
 // $html = '<input>ds<div class="navbar-header" disabled>
 // <<<asdf asd="dsa"<    button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -31,7 +30,7 @@ $html = file_get_contents("view/layout.php");
 // $html_reader = new reader();
 // $result = $html_reader->get_elements($html);
 
-$result = Html::parse($html);
+$result = Parser::parse($html);
 
 // print_r($result);
 

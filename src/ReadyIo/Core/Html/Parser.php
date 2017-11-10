@@ -1,8 +1,8 @@
 <?php 
 
-namespace Core\Html;
+namespace ReadyIo\Core\Html;
 
-use Core\String\IterableString;
+// use Core\String\IterableString;
 /**
 *  
 */
@@ -11,6 +11,13 @@ class parser
   
   function __construct()
   {    
+  }
+
+
+  public static function parse($str)
+  {
+    $parser = new Parser();
+    return $parser->get_elements($str);
   }
 
 

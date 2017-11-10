@@ -71,9 +71,8 @@ class IterableString
 
   public function walkOnMatch($regex, $minLen = 1)
   {
-    $result = "";  
-    $start  = $this->savePos();
-
+    $result = "";  $this->savePos();
+    
     do
     {
       $result .= $this->current();
